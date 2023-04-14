@@ -21,7 +21,7 @@ There are three ways to use this repo, depending on the amount of control you wa
 
 ### Method 1 - The Easy Way
 
-Execute the `run.sh` Bash script:
+Execute the `run.sh` Bash script (in this example for the English `en` portion of CommonVoice):
 
 ```bash
 ./run /path/to/CommonVoice/en /path/to/VoiceBank/ /path/to/DEMAND/ /path/to/output/ [N_CANDIDATES]
