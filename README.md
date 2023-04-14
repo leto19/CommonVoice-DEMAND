@@ -10,11 +10,10 @@ Code for the creation of CommonVoice-DEMAND datasets for speech enhancment train
   * The log files `log_testset.csv` and `log_trainset_28spk.csv` are provided in this repo.
 * DEMAND
   * This code expects all the DEMAND audio to be organised in a directory as follows:
-
     `DKITCHEN/ch01.wav  OOFFICE/ch01.wav   PSTATION/ch01.wav  STRAFFIC/ch01.wav  TMETRO/ch01.wav DLIVING/ch01.wav   PCAFETER/ch01.wav  SCAFE/ch01.wav     TBUS/ch01.wav OMEETING/ch01.wav  PRESTO/ch01.wav    SPSQUARE/ch01.wav  TCAR/ch01.wav ssn.wav babble.wav`
 * CommonVoice
   * This code expects the CommonVoice portion for a specific language to be extacted
-    * Note that the candidate recordings are copyied and reformatted in this same directory, so make sure there is enough disk space
+    * Note that the candidate recordings are copied and reformatted in this same directory, so make sure there is enough disk space for the number of candidates.
 
 ## Usage
 
