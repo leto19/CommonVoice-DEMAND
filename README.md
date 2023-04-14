@@ -33,7 +33,8 @@ This is the easiest way to create a CommonVoice-DEMAND dataset, but will take a 
 
 ### Method 2 - The Silghtly Less Easy Way
 
-1. Execute the `get_candidates.sh `Bash script: `./get_candidates.sh /path/to/CommonVoice/en N_CANDIDATES`
+1. Execute the `get_candidates.sh `Bash script: `./get_candidates.sh /path/to/CommonVoice/en N_CANDIDATES
+  1. This will find the given number of candidate audio files, convert them to 48kHz WAVs and place them in `clips_validated` in the given directory.
 2. Execute the `create_datasets.sh` Bash Script: `./create_datasets.sh /path/to/CommonVoice/en /path/to/VoiceBank/ /path/to/DEMAND/ /path/to/output/`
    1. This will create the datasets, create 16kHz sample rate versions, then make the json files.
 
