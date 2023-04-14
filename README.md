@@ -24,7 +24,7 @@ There are three ways to use this repo, depending on the amount of control you wa
 Execute the `run.sh` Bash script (in this example for the English `en` portion of CommonVoice):
 
 ```bash
-./run /path/to/CommonVoice/en /path/to/VoiceBank/ /path/to/DEMAND/ /path/to/output/ [N_CANDIDATES]
+./run /path/to/CommonVoice/en /path/to/VoiceBank/ /path/to/DEMAND/ /path/to/output/CommonVoice-DEMAND-EN [N_CANDIDATES]
 ```
 
 `N_CANDIDATES` is optional and defaults to `20000`
@@ -35,7 +35,7 @@ This is the easiest way to create a CommonVoice-DEMAND dataset, but will take a 
 
 1. Execute the `get_candidates.sh `Bash script: `./get_candidates.sh /path/to/CommonVoice/en N_CANDIDATES
    1. This will find the given number of candidate audio files, convert them to 48kHz WAVs and place them in `clips_validated` in the given directory.
-2. Execute the `create_datasets.sh` Bash Script: `./create_datasets.sh /path/to/CommonVoice/en /path/to/VoiceBank/ /path/to/DEMAND/ /path/to/output/`
+2. Execute the `create_datasets.sh` Bash Script: `./create_datasets.sh /path/to/CommonVoice/en /path/to/VoiceBank/ /path/to/DEMAND/ /path/to/output/CommonVoice-DEMAND-EN`
    1. This will create the datasets, create 16kHz sample rate versions, then make the json files.
 
 ### Method 3 - The Hard Way
