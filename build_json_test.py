@@ -14,8 +14,8 @@ VB_ROOT = sys.argv[3]
 
 OUT_FILE = "%s/test.json"%OUT_ROOT
 
-CLEAN_ROOT = "%s/train_clean"%OUT_ROOT
-NOISY_ROOT = "%s/train"%OUT_ROOT
+CLEAN_ROOT = "%s/test_clean"%OUT_ROOT
+NOISY_ROOT = "%s/test"%OUT_ROOT
 
 word_info = pd.read_csv("%s/validated.tsv"%CV_ROOT,sep="\t")
 
@@ -24,11 +24,12 @@ with open("%s/test.json"%VB_ROOT) as f:
 
 out_dict = {}
 new_test_list = os.listdir(NOISY_ROOT)
+print(new_test_list)
 for f in test_dict:
     print(f)
     f_full = [x for x in new_test_list if f in x]
     if len(f_full) == 0:
-        #print("%s not found in new list"%f)
+        print("%s not found in new list"%f)
         continue
     print(f_full)
     f_full = f_full[0]
