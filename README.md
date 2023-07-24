@@ -41,8 +41,10 @@ This involves directly running the Python scripts provided in the repository. Yo
 
 ## Citing this code
 Please cite the following paper if you use this code in your work:
+
 G. Close, T. Hain, and S. Goetze,
 The Effect of Spoken Language on Speech Enhancement using Self-Supervised Speech Representation Loss Functions, Proc. IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA), 2023
+
 ```
 @InProceedings{close2023-WASPAA-Language-Effect-SSSRs-SignalEnhancement,
   author    = {George Close and Thomas Hain and Stefan Goetze},
