@@ -1,6 +1,9 @@
 # CommonVoice-DEMAND Dataset Creation
 
-This repository provides the code for creating CommonVoice-DEMAND datasets for speech enhancement training as proposed in the paper. The following data is required:
+This repository provides the code for creating CommonVoice-DEMAND datasets for speech enhancement training as proposed in the paper:
+"HE EFFECT OF SPOKEN LANGUAGE ON SPEECH ENHANCEMENT USING SELF-SUPERVISED SPEECH REPRESENTATION LOSS FUNCTIONS"
+
+. The following data is required:
 
 ## Required Data
 
