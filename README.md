@@ -38,3 +38,18 @@ Note that `N_CANDIDATES` is optional and defaults to `20000`. This is the simple
 ### Method 3 - The Hard Way
 
 This involves directly running the Python scripts provided in the repository. You should be able to determine the arguments to each from the Bash scripts and the Python code itself. Only use this method if you want to customize or change the process in some way. You'll need to manually run `resample.sh` to get the 16kHz version of your dataset.
+
+## Citing this code
+Please cite the following paper if you use this code in your work:
+G. Close, T. Hain, and S. Goetze,
+The Effect of Spoken Language on Speech Enhancement using Self-Supervised Speech Representation Loss Functions, Proc. IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA), 2023
+```
+@InProceedings{close2023-WASPAA-Language-Effect-SSSRs-SignalEnhancement,
+  author    = {George Close and Thomas Hain and Stefan Goetze},
+  booktitle = {Proc.~IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)},
+  title     = {{The Effect of Spoken Language on Speech Enhancement using Self-Supervised Speech Representation Loss Functions}},
+  year      = {2023},
+  address   = {New Paltz, NY, USA},
+  month     = oct,
+}
+```
